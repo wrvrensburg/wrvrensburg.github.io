@@ -1,98 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
 <title>Werner van Rensburg</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style/style.css">
-<link rel="stylesheet" href="style/fonts.css">
-<style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-        font-family: " Raleway ", sans-serif
-    }
-    
-    .third img {
-        margin-bottom: -6px;
-        opacity: 0.8;
-        cursor: pointer
-    }
-    
-    .third img:hover {
-        opacity: 1
-    }
-</style>
 
-<body class="light-grey content " style="max-width:1600px ">
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="Werner van Rensburg."/>
+<meta charset="UTF-8"> 
 
-    <!-- Sidebar/menu -->
-    <nav class="sidebar bar-block white animate-left text-grey collapse top center " style="z-index:3;width:300px;font-weight:bold " id="mySidebar "><br>
-        <h3 class="padding-64 center "><b>Werner<br>van Rensburg</b></h3>
-        <a href="javascript:void(0) " onclick="w3_close() " class="bar-item button padding hide-large ">CLOSE</a>
-        <li class="list-group-item">
-            <a class="mylink" href="https://github.com/wrvrensburg" target="_blank"><img class="icons" src="src/GitHub-Mark-64px.png" style="width:10%" alt="GitHub" />Git Hub</a>
-        </li>
-        <li class="list-group-item">
-            <a class="mylink" href="https://www.linkedin.com/in/werner-van-rensburg-971a5b104/" target="_blank"><img class="icons" src="src/icons8-linkedin-48.png" style="width:10%" alt="LinkedIn" />LinkedIn</a>
-        </li>
-        <!-- <a href="# " onclick="w3_close() " class="bar-item button ">PORTFOLIO</a>
-        <a href="#about " onclick="w3_close() " class="bar-item button ">ABOUT ME</a>
-        <a href="#contact " onclick="w3_close() " class="bar-item button ">CONTACT</a> -->
-    </nav>
+<link type="text/css" rel="stylesheet" href="style.css">
 
-    <!-- Top menu on small screens -->
-    <header class="container top hide-large white xlarge padding-16 ">
-        <span class="left padding ">SOME NAME</span>
-        <a href="javascript:void(0) " class="right button white " onclick="w3_open() ">☰</a>
-    </header>
-
-    <!-- Overlay effect when opening sidebar on small screens -->
-    <div class="overlay hide-large animate-opacity " onclick="w3_close() " style="cursor:pointer " title="close side menu " id="myOverlay "></div>
-
-    <!-- !PAGE CONTENT! -->
-    <div class="main " style="margin-left:300px ">
-
-        <!-- Push down content on small screens -->
-        <div class="hide-large " style="margin-top:83px "></div>
-
-        <!-- Photo grid -->
-        <div class="row ">
-            <div class="third ">
-                <img src="src/myself.jpg " style="width:100% " onclick="onClick(this) " alt="A picture of me on a rock ">
-            </div>
-            <div class="third ">
-                <img src="src/nature.JPG" style="width:200% " onclick="onClick(this) " alt="A picture of me in the transkei mountains ">
-            </div>
-        </div>
-
-        <!-- Modal for full size images on click-->
-        <div id="modal01 " class="modal black " style="padding-top:0 " onclick="this.style.display='none' ">
-            <span class="button black xlarge display-topright ">×</span>
-            <div class="modal-content animate-zoom center transparent padding-64 ">
-                <img id="img01 " class="image ">
-                <p id="caption "></p>
-            </div>
-        </div>
-
-        <!-- About section -->
-        <div class="container dark-grey center text-light-grey padding-32 " id="about ">
-            <h4><b>About Me</b></h4>
-            <img src="src/closeup.jpg " alt="Me " class="image padding-32 " width="300 " height="325 ">
-            <div class="content justify " style="max-width:600px ">
-                <h4>Werner van Rensburg</h4>
-                <p class="container padding-32 grey ">
-                    I am a student at the University of Pretoria. I am in my final year of studying towards a bachelor's degree in BSc Information Technology.
-                </p>
-                <p class="container padding-32 grey ">
-                    I am passionate about learning and broadening my knowledge in software development.
-                </p>
-
-
-            </div>
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="https://avatars.githubusercontent.com/u/82376194?v=4" alt="Werner" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Werner van Rensburg</h1>
+			<h2 class="quickFade delayThree">Student software developer</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>e: <a target="_blank">u15118046@tuks.co.za</a></li>
+			</ul>
+			
+			<ul>
+				<li><a href="https://www.linkedin.com/in/werner-van-rensburg-971a5b104/">LinkedIn</a></li>
+			</ul>
+			
+			<ul>
+				<li><a href="https://github.com/wrvrensburg">Github</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Interests</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>IoT, programming and going off the beat & track </p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+				<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h3>Currently studying - Final Year</h3>
+					<p>
+                        Degree: BSc IT - University of Pretria
+                    </p>
+				</article>
+				
+			</div>			
+			<div class="clear"></div>
+		</section>
+					<div class="sectionContent">
+			</div>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h3>University of Pretoria Laptop Support</h3>
+                        <p>2018 - 2020</p>
+				</article>
+			</div>			
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Coding Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>C++</li>
+					<li>C#</li>
+					<li>Java</li>
+					<li>JavaScript</li>
+					<li>Pascal</li>
+					<li>Python</li>
+					<li>Visual Basic</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Attitudes</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+                    <li>Conscientious</li>
+					<li>Determined</li>
+					<li>Optimistic</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
 
 </body>
-
 </html>
